@@ -30,6 +30,7 @@ distance = arcpy.GetParameterAsText(2)
 # Execute logic that's specific to this tool 
 arcpy.AddMessage('Doing some complicated arcpy analysis')
 try:
+    # Using a function from toolLogic.py
     toolLogic.doComplicatedArcpyAnalysis(in_fc, out_fc, distance, arcpy) 
 except Exception: 
     e = sys.exc_info()[1]
@@ -40,6 +41,7 @@ except Exception:
 # Execute one of your always_useful things 
 arcpy.AddMessage('Doing routine data management')
 try:
+    # Using a function from always_useful/things.py
     things.doGeneralThing(out_fc)
 except Exception: 
     e = sys.exc_info()[1]
