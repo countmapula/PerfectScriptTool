@@ -7,7 +7,7 @@
     - Get and set script tool parameters using arcpy.GetParameter...
     - Set other global variables
     - Send messages to the ArcGIS Pro interface with arcpy.Add... 
-    - Invoke 
+    - Invoke logic from your other files 
 '''
 
 
@@ -26,7 +26,7 @@ out_fc = arcpy.GetParameterAsText(1)
 distance = arcpy.GetParameterAsText(2)
 
 
-# Logic 
+# Logic and error handling 
 # Execute logic that's specific to this tool 
 arcpy.AddMessage('Doing some complicated arcpy analysis')
 try:
