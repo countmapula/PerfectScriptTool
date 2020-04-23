@@ -1,4 +1,4 @@
-# Sample ArcGIS Pro Script Tool (v2.5)
+# Sample ArcGIS Pro Script Tool (Pro v2.5)
 
 To use this template, clone or download the entire repository and [add MyToolbox.tbx to your ArcGIS Pro project](https://pro.arcgis.com/en/pro-app/help/projects/connect-to-a-toolbox.htm#GUID-07AA7C42-D833-45B3-973E-2521C0224A9E).
 
