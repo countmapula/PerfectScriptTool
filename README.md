@@ -1,6 +1,6 @@
 # Sample ArcGIS Pro Script Tool (v2.5)
 
-To use this tool, clone or download the entire repository and [add MyToolbox.tbx to your ArcGIS Pro project](https://pro.arcgis.com/en/pro-app/help/projects/connect-to-a-toolbox.htm#GUID-07AA7C42-D833-45B3-973E-2521C0224A9E).
+To use this template, clone or download the entire repository and [add MyToolbox.tbx to your ArcGIS Pro project](https://pro.arcgis.com/en/pro-app/help/projects/connect-to-a-toolbox.htm#GUID-07AA7C42-D833-45B3-973E-2521C0224A9E).
 
 **/always_useful/things.py** represents a package of logic that appears in more than one project. For me, this mainly relates to data management tasks like indexing, domain and subtype maintenance, tile cache generation and map service updates. 
 
